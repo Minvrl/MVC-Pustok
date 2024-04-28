@@ -10,6 +10,7 @@ namespace MVC_Pustok.Data
 
         }
 
+        public DbSet<Setting> Settings { get; set; }
         public DbSet<Feature> Features { get; set; }    
         public DbSet<Author> Authors { get; set; }
         public DbSet<Book> Books { get; set; }
